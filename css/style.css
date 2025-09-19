@@ -8,7 +8,7 @@
 -Font weights:
  default: 400
 
- 
+
 - Line heights:
   Default:1
 
@@ -46,4 +46,16 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  background-color: red;
+  /* width: 1000px; */
+  /* max-width: 1000px;*/
+
+  max-width: 50rem;
+  padding: 4rem;
+  font-size: 2rem;
+  color: white;
+  /* 1 rem = 16px  -> 500rem = 800px*/
 }

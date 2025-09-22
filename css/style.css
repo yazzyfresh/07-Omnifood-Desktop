@@ -42,7 +42,10 @@
 }
 
 html {
-  font-size: 20px;
+  /* font-size: 10px; */
+  /* 10px /16px = 0.625 = 62.5% */
+  /* Percentage of the users default font-size setting */
+  font-size: 62.5%;
 }
 
 body {
@@ -50,16 +53,4 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-}
-
-.test {
-  background-color: red;
-  /* width: 1000px; */
-  /* max-width: 1000px;*/
-
-  max-width: 50rem;
-  padding: 4rem;
-  font-size: 2rem;
-  color: white;
-  /* 1 rem = 16px  -> 500rem = 800px*/
 }

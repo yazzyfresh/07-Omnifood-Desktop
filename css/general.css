@@ -31,7 +31,9 @@
   -#fae5d3
   -#eb984e
 
-  -Shades: #cf711f
+  -Shades: 
+  #cf711f
+  #45260a
   
   -Accents:
   
@@ -154,6 +156,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -167,6 +170,11 @@ body {
   /* Put transition on original "state" */
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
+
+  /* Only necessary for .btn  */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
@@ -212,6 +220,17 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
 .list {
   list-style: none;
   display: flex;
@@ -230,6 +249,13 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /*HELPER/SETTINGS CLASSES*/

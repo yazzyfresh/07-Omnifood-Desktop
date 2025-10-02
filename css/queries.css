@@ -276,13 +276,19 @@ Insted, 1rem =1em =16px */
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
   }
-<<<<<<< HEAD
-=======
 
   .cta {
     grid-template-columns: 1fr;
   }
->>>>>>> 4b4c2f936c41b5bf3747344def079fe568d13dc1
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
 }
 
 /*-Font sizes (px):
